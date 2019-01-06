@@ -1,4 +1,4 @@
-library(mypipe)
+library(thesispipe)
 
 test_that("Check for nesseary global variables", {
 
