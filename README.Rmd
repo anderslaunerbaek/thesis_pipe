@@ -16,3 +16,59 @@ knitr::opts_chunk$set(
 # The Technical Pipeline
 
 [![Build Status](https://travis-ci.com/anderslaunerbaek/thesis_pipe.svg?branch=master)](https://travis-ci.com/anderslaunerbaek/thesis_pipe)
+
+<!--
+## Performance Tables
+
+```{r, echo=FALSE}
+df_1 <- data.frame(`Partition` = c("Train Set", "Validation Set", "Test Set"),
+                   `Kappa (%)` = c("99.7117","98.5066","98.4293"),
+                   `Error Rate (%)` = c("0.1651","0.8557","0.8998"))
+
+
+df_2 <- data.frame(`Partition` = c("Train Set", "Validation Set", "Test Set"),
+                   `LER` = c("1.684","2.5885","2.6472"),
+                   `Error Rate (%)` = c("56.5776","74.2798","72.8618"))
+
+
+df_3 <- data.frame(`First Stage` = c("Correct","Correct","Correct","Wrong"),
+                   `Second Stage` = c("Correct","Wrong","-","-"),
+                   `N` = c("35","573","2,575","36"),
+                   `Percentage (%)` = c("1","18","81","1"))
+
+
+
+
+
+
+
+
+
+```
+
+
+```{r, echo=FALSE}
+knitr::kable(df_1)
+```
+
+
+
+```{r, echo=FALSE}
+knitr::kable(df_2)
+```
+
+
+```{r, echo=FALSE}
+knitr::kable(df_3)
+```
+
+-->
+
+
+
+
+## Todos
+
+- Attach the final report
+- Unit tests
+- Add code coverage (create codecov.yml, activate codecov.io and get batch to readme...)
