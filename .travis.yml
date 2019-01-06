@@ -12,6 +12,7 @@ addons:
       - sourceline: 'ppa:opencpu/imagemagick'  
     packages:
       - libmagick++-dev
+      - libpoppler-cpp-dev
 
 after_success:
   - Rscript -e 'covr::codecov()'
