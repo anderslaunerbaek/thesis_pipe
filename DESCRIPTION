@@ -1,5 +1,5 @@
-Package: mypipe
-Title: This is the R package, which produces the end-to-end results on the test set
+Package: thesispipe
+Title: The R package which produces the end-to-end results of the technical pipeline on the test set
 Version: 0.0.1
 Authors@R: 
     person(given = "Anders",
@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "anders@launer.dk")
 Description: This R package is the final result of my master thesis. 
-             It have been created in order to produce the end-to-end results on the test set. 
-             See readme for results.
+             It have been created in order to produce the end-to-end results on the test set.
 Depends: R (>= 3.4.3)
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -24,4 +23,5 @@ Imports:
     abind,
     grDevices,
     stats,
-    covr
+    covr,
+    pdftools

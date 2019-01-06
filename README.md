@@ -43,3 +43,24 @@ Todos
 -   Attach the final report
 -   Unit tests
 -   Add code coverage (create codecov.yml, activate codecov.io and get batch to readme...)
+
+Install Package
+---------------
+
+``` r
+# install.packages("devtools")
+devtools::install_github("anderslaunerbaek/thesis_pipe")
+```
+
+Run Example
+-----------
+
+``` r
+pdf_file <- "./data/my_VRD_pdf_file.pdf"
+
+# Load library
+library(thesispipe)
+
+# Perform classification and text predictions
+my_pipe(pdf_file)
+```
