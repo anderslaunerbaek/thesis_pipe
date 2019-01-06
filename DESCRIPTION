@@ -23,4 +23,5 @@ Imports:
     dplyr,
     abind,
     grDevices,
-    stats
+    stats,
+    covr
