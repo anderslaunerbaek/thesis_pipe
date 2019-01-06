@@ -1,4 +1,4 @@
 library(testthat)
-library(mypipe)
+library(thesispipe)
 
-test_check("mypipe")
+test_check("thesispipe")
