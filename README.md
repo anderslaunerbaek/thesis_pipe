@@ -56,7 +56,7 @@ Run Example
 -----------
 
 ``` r
-pdf_file <- "./data/my_VRD_pdf_file.pdf"
+pdf_file <- "./dev/data/my_VRD_pdf_file.pdf"
 
 # Load library
 library(thesispipe)
