@@ -4,18 +4,23 @@
 \alias{model_CNN}
 \title{model_CNN}
 \usage{
-model_CNN(no_classes, batch_shape, glo_set)
+model_CNN(no_classes = 4, batch_shape = list(64, 224, 224, 3),
+  lr = 0.001, beta_1 = 0.9, beta_2 = 0.999)
 }
 \arguments{
 \item{no_classes}{an integer, number of classes.}
 
 \item{batch_shape}{a list with `batch_shape`.}
 
-\item{glo_set}{a list must be `glo_set`.}
+\item{lr}{the learning rate.}
+
+\item{beta_1}{a exponential decay, 1st moment estimates.}
+
+\item{beta_2}{a exponential decay, 2nd moment estimates.}
 }
 \value{
 Keras model object
 }
 \description{
-VVG 16 pretrained on image net
+A VVG16 model with a conv base which is pretrained on the ImageNet data and the self defined classifier.
 }

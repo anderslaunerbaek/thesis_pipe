@@ -2,7 +2,9 @@
 % Please edit documentation in R/CRNN_model_optimized.R
 \name{model_CNN_RNN}
 \alias{model_CNN_RNN}
-\title{model_CNN}
+\title{model_CRNN
+inspired by: https://github.com/keras-team/keras/blob/master/examples/image_ocr.py
+and https://github.com/DeepSystems/supervisely-tutorials/blob/master/anpr_ocr/src/image_ocr.ipynb}
 \usage{
 model_CNN_RNN(vocab_size, batch_shape, max_str_len, lr, beta_1, beta_2)
 }
@@ -17,5 +19,5 @@ model_CNN_RNN(vocab_size, batch_shape, max_str_len, lr, beta_1, beta_2)
 Keras model object
 }
 \description{
-VVG 16 pretrained on image net
+The CRNN model
 }

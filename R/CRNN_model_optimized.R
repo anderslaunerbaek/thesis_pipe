@@ -43,6 +43,7 @@ decode_ctc <- function(model, images) {
 #' model_CRNN
 #' inspired by: https://github.com/keras-team/keras/blob/master/examples/image_ocr.py
 #' and https://github.com/DeepSystems/supervisely-tutorials/blob/master/anpr_ocr/src/image_ocr.ipynb
+#'
 #' The CRNN model
 #'
 #' @param no_classes an integer, number of classes.
