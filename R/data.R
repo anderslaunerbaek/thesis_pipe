@@ -22,3 +22,9 @@
 #'
 #' @format A vector
 "vocab_tot"
+
+
+#' Profiling of the end to end process
+#'
+#' @format A large profvis (list)
+"prof"

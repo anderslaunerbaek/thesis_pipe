@@ -92,3 +92,42 @@ library(thesispipe)
 my_pipe(pdf_file)
 
 ```
+
+
+```{r, eval = FALSE,echo =FALSE}
+sec_to_min <- function(sec) {
+  min <- round(sec / 60)
+  sec <- round(((sec / 60) - min) * 60)
+  # return
+  paste0(min,":",sec)
+}
+
+# Load library
+library(thesispipe)
+
+# Perform classification and text predictions
+pdf_file <- "./dev/data/16-1797233_172618706_censur.pdf"
+system.time(my_pipe(pdf_file))
+# bruger   system forløbet 
+# 184.004   20.657  193.705 
+sec_to_min(184.004)
+
+pdf_file <- "./dev/data/17-1850438_210430531_censur.pdf"
+system.time(my_pipe(pdf_file))
+# bruger   system forløbet 
+# 191.434   25.245  205.802 
+sec_to_min(191.434)
+
+
+library(profvis)
+prof <- profvis({
+  my_pipe("./dev/data/16-1797233_172618706_censur.pdf")
+})
+prof
+usethis::use_data(prof)
+
+```
+
+
+
+
