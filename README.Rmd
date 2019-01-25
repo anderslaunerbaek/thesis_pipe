@@ -70,6 +70,7 @@ knitr::kable(df_3)
 ## Todos
 
 - Attach the final report
+- Packrat.. update..
 - Unit tests
 - Add code coverage (create codecov.yml, activate codecov.io and get batch to readme...)
 
