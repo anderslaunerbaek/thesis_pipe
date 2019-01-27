@@ -70,8 +70,8 @@ knitr::kable(df_3)
 ## Todos
 
 - Attach the final report
-- Packrat.. update..
 - Unit tests
+- Grad-CAM CRNN model. Per time step, per collapsed..
 - Add code coverage (create codecov.yml, activate codecov.io and get batch to readme...)
 
 
@@ -126,6 +126,14 @@ prof <- profvis({
 })
 prof
 usethis::use_data(prof)
+
+t_prof <- 177970 / 1000 # in ms to sec
+i_prof <- (162510 +  820 + 180) / 1000 # in ms to sec
+
+i_prof / t_prof * 100
+
+sec_to_min(t_prof)
+
 
 ```
 

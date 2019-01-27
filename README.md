@@ -42,6 +42,7 @@ Todos
 
 -   Attach the final report
 -   Unit tests
+-   Grad-CAM CRNN model. Per time step, per collapsed..
 -   Add code coverage (create codecov.yml, activate codecov.io and get batch to readme...)
 
 Install Package
