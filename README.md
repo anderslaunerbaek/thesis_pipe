@@ -47,6 +47,8 @@ Todos
 Link to Report
 --------------
 
+Link: [Thesis\_final](https://github.com/anderslaunerbaek/thesis_pipe/blob/master/Thesis_final.pdf)
+
 Install Package
 ---------------
 

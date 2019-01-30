@@ -74,6 +74,7 @@ knitr::kable(df_3)
 
 ## Link to Report
 
+Link: [Thesis_final](https://github.com/anderslaunerbaek/thesis_pipe/blob/master/Thesis_final.pdf)
 
 ## Install Package
 
